@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("PunisherModdingToolGUI")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("GUI for Gibbed.Volitin and CEGTool")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("PunisherModdingToolGUI")]
