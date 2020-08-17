@@ -30,6 +30,7 @@
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.unpackBtn = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.listOfFIlesCEG = new System.Windows.Forms.RichTextBox();
@@ -38,6 +39,7 @@
             this.openFileBtn = new System.Windows.Forms.Button();
             this.fileTextBox = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.packBtn = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.listOfFilesDir = new System.Windows.Forms.RichTextBox();
@@ -47,8 +49,6 @@
             this.dirTextBox = new System.Windows.Forms.TextBox();
             this.openCEGFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.CEGFolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -92,6 +92,16 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Unpack CEG";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(6, 45);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 20);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "File location";
             // 
             // unpackBtn
             // 
@@ -189,6 +199,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Pack CEG";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(7, 56);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(133, 22);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Directory location";
+            // 
             // packBtn
             // 
             this.packBtn.BackColor = System.Drawing.Color.DarkRed;
@@ -269,26 +289,6 @@
             this.dirTextBox.Size = new System.Drawing.Size(438, 26);
             this.dirTextBox.TabIndex = 4;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(7, 56);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 22);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Directory location";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(6, 45);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 20);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "File location";
-            // 
             // CEGForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -296,6 +296,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(813, 414);
             this.Controls.Add(this.splitContainer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "CEGForm";

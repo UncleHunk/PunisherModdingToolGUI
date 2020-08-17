@@ -58,7 +58,7 @@ namespace PunisherModdingToolGUI
         {
             if (openCEGFileDialog.FileName == "") return;
 
-            if (!File.Exists("CEGTool.exe") && !File.Exists("cegtool\\CEGTool.exe")) return;
+            if (!File.Exists("CEGTool.exe") && !File.Exists("tools\\CEGTool.exe")) return;
 
             callCegTool("unpack");
         }
